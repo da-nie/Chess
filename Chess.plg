@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Chess - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/Resource.res" /d "NDEBUG" /d "_AFXDLL" "E:\From_Visual C++ 6.0\Workings projects\Игры\ChessEngine\Chess (лучшая версия из Working)\23.04.2015\Chess-E1 (сглаженная картинка)\Resource.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB6.tmp" with contents
+[
+/nologo /MD /W3 /GX /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/Chess.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\From_Visual C++ 6.0\Workings projects\Игры\ChessEngine\Chess (лучшая версия из Working)\23.04.2015\Chess-E1 (сглаженная картинка)\cdialog_main.cpp"
+"E:\From_Visual C++ 6.0\Workings projects\Игры\ChessEngine\Chess (лучшая версия из Working)\23.04.2015\Chess-E1 (сглаженная картинка)\cdialog_selectfigure.cpp"
+"E:\From_Visual C++ 6.0\Workings projects\Игры\ChessEngine\Chess (лучшая версия из Working)\23.04.2015\Chess-E1 (сглаженная картинка)\engine.cpp"
+"E:\From_Visual C++ 6.0\Workings projects\Игры\ChessEngine\Chess (лучшая версия из Working)\23.04.2015\Chess-E1 (сглаженная картинка)\engine_common.cpp"
+"E:\From_Visual C++ 6.0\Workings projects\Игры\ChessEngine\Chess (лучшая версия из Working)\23.04.2015\Chess-E1 (сглаженная картинка)\engine_hash.cpp"
+"E:\From_Visual C++ 6.0\Workings projects\Игры\ChessEngine\Chess (лучшая версия из Working)\23.04.2015\Chess-E1 (сглаженная картинка)\engine_history.cpp"
+"E:\From_Visual C++ 6.0\Workings projects\Игры\ChessEngine\Chess (лучшая версия из Working)\23.04.2015\Chess-E1 (сглаженная картинка)\engine_move.cpp"
+"E:\From_Visual C++ 6.0\Workings projects\Игры\ChessEngine\Chess (лучшая версия из Working)\23.04.2015\Chess-E1 (сглаженная картинка)\engine_score.cpp"
+"E:\From_Visual C++ 6.0\Workings projects\Игры\ChessEngine\Chess (лучшая версия из Working)\23.04.2015\Chess-E1 (сглаженная картинка)\engine_search.cpp"
+"E:\From_Visual C++ 6.0\Workings projects\Игры\ChessEngine\Chess (лучшая версия из Working)\23.04.2015\Chess-E1 (сглаженная картинка)\Main.cpp"
+"E:\From_Visual C++ 6.0\Workings projects\Игры\ChessEngine\Chess (лучшая версия из Working)\23.04.2015\Chess-E1 (сглаженная картинка)\tga.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB6.tmp" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPB7.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Chess.pdb" /machine:I386 /out:"Release/Chess.exe" 
+".\Release\cdialog_main.obj"
+".\Release\cdialog_selectfigure.obj"
+".\Release\engine.obj"
+".\Release\engine_common.obj"
+".\Release\engine_hash.obj"
+".\Release\engine_history.obj"
+".\Release\engine_move.obj"
+".\Release\engine_score.obj"
+".\Release\engine_search.obj"
+".\Release\Main.obj"
+".\Release\tga.obj"
+".\Release\Resource.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPB7.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+cdialog_main.cpp
+cdialog_selectfigure.cpp
+engine.cpp
+engine_common.cpp
+engine_hash.cpp
+engine_history.cpp
+engine_move.cpp
+engine_score.cpp
+engine_search.cpp
+Main.cpp
+tga.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Chess.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

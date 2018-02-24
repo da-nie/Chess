@@ -1,0 +1,133 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_MAIN DIALOG DISCARDABLE  0, 0, 582, 311
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Шахматы"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Сделать ход",IDC_BUTTON_MOVE,65,15,175,14
+    GROUPBOX        "Ход",IDC_STATIC,5,5,240,30,BS_CENTER
+    EDITTEXT        IDC_EDIT_MAIN_MOVE,10,15,50,14,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST_MAIN_MOVE,5,60,170,205,LBS_NOINTEGRALHEIGHT | 
+                    LBS_DISABLENOSCROLL | LBS_NOSEL | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC_MAIN_MAP,250,10,325,295,NOT WS_VISIBLE
+    PUSHBUTTON      "Сохранить состояние",IDC_BUTTON_SAVE_STATE,5,40,110,14
+    PUSHBUTTON      "Загрузить состояние",IDC_BUTTON_LOAD_STATE,130,40,110,
+                    14
+    PUSHBUTTON      "Начать игру белыми",IDC_BUTTON_INIT_WHITE,5,270,120,14
+    PUSHBUTTON      "Начать игру чёрными",IDC_BUTTON_INIT_BLACK,5,290,120,14
+    LISTBOX         IDC_LIST_MAIN_PRINCIPAL_MOVE,185,60,55,205,
+                    LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | LBS_NOSEL | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Повернуть доску",IDC_BUTTON_ROTATE_BOARD,135,270,105,35
+END
+
+IDD_DIALOG_SELECT_FIGURE DIALOG DISCARDABLE  0, 0, 201, 115
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "В кого вы хотите превратить пешку?"
+FONT 14, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Стать Ферзём",IDC_BUTTON_SELECT_FIGURE_QUEEN,5,5,85,14
+    PUSHBUTTON      "Стать Ладьёй",IDC_BUTTON_SELECT_FIGURE_ROOK,5,35,85,14
+    PUSHBUTTON      "Стать Слоном",IDC_BUTTON_SELECT_FIGURE_BISHOP,5,65,85,
+                    14
+    PUSHBUTTON      "Стать Конём",IDC_BUTTON_SELECT_FIGURE_KNIGHT,5,95,85,14
+    GROUPBOX        "",IDC_STATIC_SELECT_FIGURE_MAP,95,0,100,110,NOT 
+                    WS_VISIBLE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 575
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 304
+    END
+
+    IDD_DIALOG_SELECT_FIGURE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 108
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
